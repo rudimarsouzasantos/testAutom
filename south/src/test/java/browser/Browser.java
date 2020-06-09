@@ -97,8 +97,12 @@ public class Browser extends Driver {
 
 	@Override
 	public void openUrl() {
-		driver.get(URL);
+		driver.get(this.URL);
 
+	}
+	
+	public void openUrl(String url) {
+		driver.get(url);
 	}
 
 	public String getBROWSERUSED() {

@@ -56,7 +56,8 @@ public class TestSavingsSimulator
 		}
 	}
 
-    public void testSimulatorForYouHappyWay()
+    @Test
+	public void testSimulatorForYouHappyWay()
     {
     	clickfyProfile(pageSavingSimulator.getValueProfileForYou());
     	
@@ -79,6 +80,7 @@ public class TestSavingsSimulator
     	assertTrue(passed);
     }
     
+    @Test
     public void testSimulatorForCompanyHappyWay()
     {
     	clickfyProfile(pageSavingSimulator.getValueProfileForCompany());
@@ -102,6 +104,7 @@ public class TestSavingsSimulator
     	assertTrue(passed);
     }
     
+    @Test
     public void testSimulatorFormUnFillFieldToApply()
     {
     	clickfyProfile(pageSavingSimulator.getValueProfileForCompany());
@@ -123,6 +126,7 @@ public class TestSavingsSimulator
 
     }
     
+    @Test
     public void testSimulatorFormUnFillFieldToSaving()
     {
     	clickfyProfile(pageSavingSimulator.getValueProfileForCompany());
